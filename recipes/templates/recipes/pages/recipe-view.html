@@ -1,0 +1,13 @@
+{% extends 'global/base.html' %}
+
+{% block title %} recipe unica - recipes {% endblock %}
+
+{% block meta_description %} 
+  descricao meta de uma recipe
+{% endblock %}
+
+{% block content %}
+    <div class="main-content main-content-datail container">
+        {% include 'recipes/partials/recipe.html' %}
+    </div>
+{% endblock %}

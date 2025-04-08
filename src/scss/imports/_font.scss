@@ -1,0 +1,53 @@
+// Defina os tamanhos de fonte para diferentes tamanhos de tela
+h1 {
+  font-size: $font-size-h1-sm;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-h1-md;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-h1-lg;
+  }
+}
+
+h2 {
+  font-size: $font-size-h2-sm;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-h2-md;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-h2-lg;
+  }
+}
+
+body{
+  font-size: 1.0rem;
+}
+
+
+
+// @import "../mixins/google-fonts.scss";
+
+//---------------------------------------------
+// 2. Loading Fonts
+//---------------------------------------------
+
+
+// @include googleFonts((
+//   (
+//     "name": "Michroma",
+//     "folder": "Michroma",
+//     "files": "Michroma",
+//     "weights": (300, 400,500, 700, 900)
+//   ),
+//   (
+//     "name": "ZenDots",
+//     "folder": "Zen_Dots",
+//     "files": "ZenDots",
+//     "weights": (300, 400,500, 700, 900)
+//   ),
+// ));
+       

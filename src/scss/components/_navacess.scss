@@ -1,0 +1,42 @@
+.s-acessibility{
+    background: #f5f5f5;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding:10px 0px;
+    a{
+        color: #000000;
+        text-decoration: none;
+        padding:0px 5px;
+        &:hover{
+            text-decoration: underline;
+            opacity: .5
+        }
+    }
+    &__sides{
+        display: flex;
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:last-child{
+            justify-content: end;
+        }
+    }
+    &__anchors{
+        margin-right:25px;
+    }
+    &__external{
+        display:inline-flex;
+        list-style: none;
+        li{
+            padding: 0px 10px;
+            &:last-child{
+                padding-right: 0px;
+            }
+        }
+    }    
+}

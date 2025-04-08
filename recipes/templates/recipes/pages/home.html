@@ -1,0 +1,15 @@
+{% extends 'global/base.html' %}
+
+{% block title %} Home nova - recipes {% endblock %}
+
+{% block meta_description %} 
+  recitas gerais, novas e modernas
+{% endblock %}
+
+{% block content %}
+    <div class="main-content main-content-list container">
+      {% for recipe in recipes %}
+        {% include 'recipes/partials/recipe.html' %}
+      {% endfor %}
+    </div>
+{% endblock %}

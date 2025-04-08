@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #30e823;
+    --header-color: #fd8a0f;
+    --footer-color: #f4ba0e;
+    --font-color: #333;
+  }
+  
+  .footer {
+    /* background: url('../images/webpack-logo.svg') center no-repeat; */
+    background-color: var(--footer-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+

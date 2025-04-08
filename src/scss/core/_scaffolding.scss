@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    src:url('@/fonts/dosis/Dosis-Regular.woff2') format('woff2'),
+    ;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 700;
+    src: url('@/fonts/dosis/Dosis-Bold.woff2') format('woff2');
+    font-display: swap;
+  }
+  
