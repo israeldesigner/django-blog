@@ -12,7 +12,9 @@ whitenoise==6.6.0
 gunicorn==21.2.0
 
 # psycopg2-binary
+pillow==11.1.0
 # mysqlclient
 
 # Hot Reload
 django-browser-reload==1.12.1
+faker==37.1.0
